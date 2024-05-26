@@ -1,0 +1,40 @@
+.container-list {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  width: 100vw;
+  height: 100vh;
+  /* height: 100px; */
+  margin: 0 auto;
+}
+
+.container {
+  background: lightcyan;
+  padding: 10px;
+  width: 200px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.draggable-item {
+  padding: 10px;
+  margin: 5px 0;
+  height: 100px;
+  width: 200px;
+  background-color: #f0f0f0;
+  border: 1px solid #ddd;
+  cursor: grab;
+}
+
+.draggable-item:active {
+  cursor: grabbing;
+}
+
+.dropzone {
+  padding: 20px;
+  margin: 10px 0;
+  height: 200px;
+  width: 100%;
+  text-align: center;
+}
